@@ -1,7 +1,8 @@
 development:
-  adapter: sqlite3
+  adapter: postgresql
   database: db/school-dev.sqlite3
+  host: localhost
 
 test:
-  adapter: sqlite3
+  adapter: postgresql
   database: db/school-test.sqlite3
